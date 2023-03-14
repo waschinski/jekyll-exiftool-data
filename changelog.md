@@ -1,7 +1,3 @@
-# v 0.0.3
-- return empty String instead of "nil" if a tag exists, but is empty.
-- update summary and description
-
-# v 0.0.2
-- fix links to repo
-- return "nil" instead of nil if a tag exists, but is empty. Returning nil causes errors in Jekyll.
+# v 0.0.4
+- Forked from https://github.com/NiklasEi/jekyll-exif-data
+- Replaced Exifr with Exiftool

@@ -1,8 +1,8 @@
-# Jekyll-exif-data
+# Jekyll-exiftool-data
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-exif-data.svg)](https://badge.fury.io/rb/jekyll-exif-data)
+[![Gem Version](https://badge.fury.io/rb/jekyll-exiftool-data.svg)](https://badge.fury.io/rb/jekyll-exiftool-data)
 
-This Jekyll plugin adds the Liquid filter `exif`, supplying exif data to Jekyll websites. To read the data [exifr](https://github.com/remvee/exifr) is used as a dependency.
+This Jekyll plugin adds the Liquid filter `exif`, supplying exif data to Jekyll websites. To read the data [exiftool](https://github.com/exiftool-rb/exiftool.rb) is used as a dependency.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add the plugin to your site's Gemfile:
 ```ruby
 group :jekyll_plugins do
   # your other jekyll plugins...
-  gem 'jekyll-exif-data', '~> 0.0'
+  gem "jekyll-exiftool-data", git: "https://github.com/waschinski/jekyll-exiftool-data"
 end
 ```
 
@@ -23,13 +23,13 @@ in your jekyll project directory. The dependency of the plugin is also automatic
 ### Manual installation
 In your terminal:
 ```bash
-$ gem install jekyll-exif-data
+$ gem install jekyll-exiftool-data
 ```
 
 Then add the plugin to your `_config` file:
 ```yml
 plugins:
-  - jekyll-exif-data
+  - jekyll-exiftool-data
 ```
 
 
